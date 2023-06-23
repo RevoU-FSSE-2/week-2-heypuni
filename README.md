@@ -2,12 +2,6 @@
 
 Welcome to the Giant Dogs Website! This website is dedicated to dog lovers who have a special affinity for giant dog breeds. Here, you will find a collection of adorable photos of giant dogs, learn about the advantages of having giant dogs as pets, and even have the opportunity to join our exclusive Giant Dogs Club through a registration form.
 
-## Table of Contents
-- [Photo Collection] (#photo-collection)
-- [Advantages] (#advantages)
-- [Registration Form] (#registration)
-- [Disclaimer] (#disclaimer)
-
 ## Photo Collection
 Explore a delightful collection of photos showcasing various giant dog breeds. Get ready to be amazed by their size and charm.
 
@@ -21,4 +15,4 @@ Join our exclusive Giant Dogs Club by filling out the registration form. As a me
 This website was made purely just for fun. If you do happen to be a fan of dogs, cool! Otherwise, join the fun lol.
 P.s the creator is not even a fan of giant dogs, she prefers cutie little ones :3
 
-Here's the [link] (https://gorgeous-conkies-c5b2a6.netlify.app/) to the website!
+Here's the [link](https://gorgeous-conkies-c5b2a6.netlify.app/) to the website!
