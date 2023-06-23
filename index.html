@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giant Dogs Diary</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <nav style="top: 0px";>
+        <span class="tablet">
+            <img src="https://user-images.githubusercontent.com/2970318/209647125-dc41103d-c545-4e2e-b89b-099fbfcde702.svg" alt="hamburger-menu">
+        </span>
+        <span>
+          <img width="50" height="50" src="https://img.icons8.com/bubbles/50/dog.png" alt="dog">
+          <b> Giant Dogs Diary</b>
+        </span> 
+        
+        <ul>
+          <li><a href="">Home</li></a>
+          <li><a href="">Contact</li></a>
+          <li><a href="">About us</li></a>
+        </ul>
+       
+    </nav>
+
+    <header id="header">
+        <h1>Do you like your burger EXTRA big? </h1>
+        <p class="main-desc">Yes? Then this is for you.<br> 
+            Here, we bring you an EXTRA big dog</p>
+    </header>
+
+    <main>
+        <section id="photos-section">
+          <h2>Biggest Dog Breed</h2>
+            <div class="photos-container">
+                <div>
+                <img src="images/photo1.jpg" alt="a kid looking at a dog" />
+                </div>
+                <div>
+                <img src="images/photo2.jpg" alt="giant dog sideways" />
+                </div>
+                <div>
+                <img src="images/photo3.jpg" alt="a kid hugging a giant dog" />
+                </div>
+                <div>
+                <img src="images/photo4.jpg" alt="a kid and a dog posing" />
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <section id="reason-section">
+        <h2>Why You Should Choose XXL Dogs</h2>
+          <div class="reason-container">
+            <ul class="advantage-container">
+                <li>Loving and Loyal </li>
+                <li>Not as fragile </li>
+                <li>Easier to train </li>
+            </ul>
+            <figure>
+                <img src="images/advantages.jpg" alt="interaction with giant dog" style="width: 100%"/>
+              <figcaption style="color: #884A39; text-align: center;"><br>
+                A 
+                <em>reliable</em>
+                 partner
+              </figcaption>
+            </figure>
+          </div> 
+        </section>
+
+        <section id="video-section">
+            <h2>Even Babies Love Them!</h2>
+            <div class="video-container">
+                 <iframe src="https://www.youtube.com/embed/Xksk04FKEWU" width="560" height="315" title="Baby Grows Up With His 125-Pound Dog" 
+                 frameborder="0" allowfullscreen>
+                 </iframe>
+            </div>
+        </section>    
+
+        <section id="form-section">
+        <form>
+          <h2>Join the Giant Dog Club!</h2>
+            <fieldset>
+                <legend>Personal Data:</legend>
+                <div>
+                <label for="fullname">Full Name:</label><br>
+                <input
+                    type="text"
+                    id="input-name"
+                    name="fullname"
+                    placeholder="Your Name"
+                    required
+                />
+                </div>
+
+                <div>
+                <label for="email">Email:</label><br>
+                <input
+                    type="email"
+                    id="input-email"
+                    name="input-email"
+                    placeholder="Your Email"
+                    required
+                />
+                </div>
+
+                <div>
+                <p>Are you living in Indonesia?</p>
+                <input 
+                    type="radio"
+                    name="domicile"
+                    id="domicile_yes"
+                    value="domicile"
+                /> 
+                <label for="domicile_yes">Yes</label>
+                </div>
+                
+                <div>
+                <input 
+                    type="radio"
+                    name="domicile"
+                    id="domicile_no"
+                    value="domicile"
+                /> 
+                <label for="domicile_no">No</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information:</legend>
+                <div>
+                <p>What do you think about giant dogs?</p>
+                <input
+                    type="checkbox"
+                    id="checkbox_cutie"
+                    name="checkbox_cutie"
+                    value="checkbox_cutie"
+                />
+                <label for="checkbox_cutie">Cutie</label>
+
+                <input
+                    type="checkbox"
+                    id="checkbox_scary"
+                    name="checkbox_scary"
+                    value="checkbox_scary"
+                />
+                <label for="checkbox_scary">Lowkey Scary</label>
+
+                <input
+                    type="checkbox"
+                    id="checkbox_want"
+                    name="checkbox_want"
+                    value="checkbox_want"
+                />
+                <label for="checkbox_want">I wanna have one at home!</label>
+                </div>
+                <div id="textarea">
+                    <label for="textarea_dogs">Tell us why you love giant dogs!</label><br>
+                    <textarea
+                    id="textarea_dogs" name="textarea_dogs" cols="70%" rows="5">
+                    </textarea>
+                </div>
+
+                <div>
+                    <label for="dog_pic">Upload your favorite giant dog picture</label><br><br>
+                    <input type="file" id="dog_pic" name="dog_pic" accept="image/png, image/jpeg">
+                </div>
+                
+                <br>
+            </fieldset>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>   
+            
+        </form>
+        </section>
+
+    </main>
+
+</body>
+</html>
